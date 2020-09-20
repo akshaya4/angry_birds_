@@ -10,7 +10,7 @@ class Log{
         this.body=Bodies.rectangle(x,y,20,height,options);
         this.width=20;
         this.height=height;
-        Matter.Body.setAngle(this.body.angle);
+        Matter.Body.setAngle(this.body,angle);
         World.add(world,this.body);
         }
         
